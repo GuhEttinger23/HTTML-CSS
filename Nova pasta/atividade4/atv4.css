@@ -1,0 +1,20 @@
+:root{
+--main-color: black;
+--sec-color: white;
+--ter-color: blue;
+}
+body{
+    background-color: var(--main-color);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    background-color: var(--sec-color);
+    padding: 20px;
+}
+.topicos{
+    background-color: var(--ter-color);
+    padding: 20px;
+}
